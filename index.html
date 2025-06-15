@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Title</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="wrapper">
+  <div class="bottom-content">
+    <div class="container">
+      <div class="bottom__inner">
+        <img src="./images/Image%20(6).png" alt="img">
+        <div class="request">
+          <h3>Leave a request</h3>
+            <h4>Let’s level up your brand, together</h4>
+          <form action="/register">
+            <div class="containForm">
+                <div class="mob-input">
+                    <label for="name">Name
+                        <input type="text" id="name" placeholder="Your name" required maxlength="20">
+                    </label>
+                </div>
+                <div class="mob-input">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="you@company.com" required maxlength="20">
+                </div>
+                <div class="mob-input">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Password" required maxlength="20" minlength="8">
+                </div>
+                <label for="gen">Gender</label>
+                <div id="gen">
+                    <input class="radio" type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input class="radio" type="radio" name="gender"  id="female">
+                    <label for="female">Female</label>
+                </div>
+                <button type="button" class="file">Select file</button>
+                <div class="privacy">
+                    <input class="check" type="checkbox" name="" id="">
+                    <p>You agree to our friendly <a href="#">privacy policy</a>.</p>
+                </div>
+                <button class="register">Register</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

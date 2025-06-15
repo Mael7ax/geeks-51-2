@@ -1,0 +1,23 @@
+html{
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  outline: 1px solid red;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  position:  relative;
+}
+.container{
+  max-width: 1520px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+ul,ol{
+  list-style: none;
+}
