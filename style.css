@@ -1,7 +1,6 @@
 html {
   font-size: 14px;
   font-family: "Inter", sans-serif;
-  outline: 1px solid red;
 }
 
 * {
@@ -156,7 +155,8 @@ ul, ol {
     padding: 40px 30px !important;
   }
   .containForm {
-    width: 300px;
+    width: 300px !important;
+    margin: 0 auto !important;
   }
   input {
     width: 300px !important;
